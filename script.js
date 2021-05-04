@@ -90,26 +90,15 @@ function AddTask() {
 
 }
 
-
 //  УДАЛЕНИЕ ЗАДАЧ
 
 let deleteTask = document.querySelectorAll(".main-task-img");
-
 deleteTask.forEach((e) => {
   e.addEventListener('click', () =>{
     // console.log(e.parentNode.parentNode);
     e.parentNode.parentNode.style.display = 'none';
   })
 });
-
-//  ОТКРЫТИЕ/ЗАКРЫТИЕ МЕНЮ
-
-// function MenuToggle() {
-//   let navbarBtn = document.querySelector(".navbar-btn");
-//   let navbar = document.querySelector(".navbar");
-
-//   navbar.style.marginLeft = '0px';
-// }
 
 let navbarBtn = document.querySelector(".navbar-btn");
 let navbar = document.querySelector(".navbar");

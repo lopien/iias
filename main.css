@@ -14,12 +14,6 @@ p{
 body{
   display: flex;
 }
-/* секция */
-
-/* .header{
-  display: flex;
-} */
-
 
 /* навбар  */
 .navbar-btn{
@@ -39,7 +33,6 @@ body{
   vertical-align: middle;
   height: 3px;
   width: 60%;
-  /* border-radius: 5px; */
   margin-top: 8px; 
   margin-bottom: 8px;
   margin-left: auto;
@@ -67,7 +60,6 @@ body{
   display: none;
 }
 .navbar_input{
-  /* background: url("img/search.svg") no-repeat 3px 3px; */
   width: 190px;
   padding: 5px;
   margin-bottom: 25px;
@@ -226,11 +218,7 @@ body{
   float: left;
 }
 
-
-
 /*  основная часть */
-
-
 
 /* СТРАНИЦА ЛИЧНЫЕ СВЕДЕНИЯ */
 
@@ -256,8 +244,6 @@ body{
   /* border: 1px solid #000; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
-
 .main-student{
   margin-left: 10px;
   display: flex;
@@ -287,7 +273,6 @@ body{
   padding-left: 12px;
   margin-right: 12px;
 }
-
 
 /* 2 блок с задачами */
 
@@ -336,8 +321,6 @@ body{
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* border: 1px solid #000; */
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   border-radius:  15px;
   padding: 10px;
@@ -384,15 +367,12 @@ body{
 .main-progress{
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   width: 420px;
-  /* border: 1px solid #000; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   height: fit-content;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  /* margin-left: 5%; */
   border-radius: 15px;
   padding: 20px;
 }
@@ -414,8 +394,7 @@ body{
   justify-content: center;
   width: 100%;
 }
-#main-progress-diagram{
-}
+
 .main-progress-rating{
   display: flex;
   flex-direction: column;
@@ -452,7 +431,6 @@ body{
   margin-right: 15px;
 }
 
-
 /*  4  блок  */
 
 .main-steps {
@@ -464,7 +442,6 @@ body{
   margin-left: 2%;
   width: 92%;
   height: auto;
-  /* border: 1px solid #000; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .container {
@@ -489,8 +466,6 @@ body{
 
 .progressbar li:before {
   content: "";
-  /* content:counter(step);
-  counter-increment: step; */
   width: 12px;
   height: 12px;
   border: 2px solid #C4C4C4;
@@ -534,15 +509,6 @@ body{
   background: #244BC5;
   color: white
 }
-/* .main-step-2{
-  margin-top: -20px;
-}
-.main-step-2::before{
-  margin-top: 0px;
-}
-.main-step-2::after{
-  margin-top: 20px;
-} */
 
 .progressbar li.main-step-2:before, 
 .progressbar li.main-step-4:before, 
@@ -556,7 +522,6 @@ body{
 .progressbar li.main-step-14:before{
   margin: 0 auto -50px auto;
 }
-
 
 @media (max-width:900px) {
   .navbar {
@@ -611,7 +576,6 @@ body{
 
 /*  СТРАНИЦА НОВОСТИ */
 
-
 .news{
   margin-left: 278px;
   padding: 20px 30px;
@@ -624,8 +588,6 @@ body{
   float: left;
   padding-right: 10px;
 }
-
-
 
 /* МОДАЛЬНОЕ ОКНО */
 
@@ -659,14 +621,12 @@ body{
   width: 70%;
   background-color: #fff;
   border-radius: 10px;
-  /* background-color: #2148C0; */
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   padding: 30px;
-
 }
 
 .modal-title {
