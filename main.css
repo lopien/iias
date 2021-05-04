@@ -245,6 +245,7 @@ body{
 .main-info{
   display: flex;
   justify-content: space-between;
+  
   border-radius: 20px;
   margin-top: 20px;
   padding: 20px;
@@ -297,7 +298,6 @@ body{
   flex-direction: row;
   margin-bottom: 10px;
 }
-
 
 .main-tasks{
   display: flex;
@@ -412,6 +412,9 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
+}
+#main-progress-diagram{
 }
 .main-progress-rating{
   display: flex;
@@ -575,13 +578,34 @@ body{
   }
 }
 
-@media (max-width:760px) {
+@media (max-width:600px) {
   .navbar {
     margin-left: -278px;
   }
-
+  .main-progress-cirle {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-info {
+    margin-left: 5%;
+    width: 90%;
+    padding: 5px;
+  }
   .main-block {
+    padding: 0;
+    width: 100%;
     margin-left: 0px;
+  }
+  .main-info {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .main-steps{
+    display: none;
+  }
+  .main-student, .main-week, .main-setting{
+    padding-bottom: 15px;
   }
 }
 
