@@ -17,7 +17,6 @@ let canvasData = {
                 "red",
                 "blue",
                 "yellow",
-  
             ],
             borderWidth: 0
         }]
@@ -42,9 +41,7 @@ var pieChart = new Chart(canvas, {
   options: canvasOptions
 });
 
-
 // добавление задач main.html
-
 
 let mainTaskAdd = document.querySelector('.main-task-add');
 let mainTaskDel = document.querySelector('.main-task-del');
@@ -63,7 +60,6 @@ function AddTask() {
   let addTask = document.querySelector('.task-add');
   
   if(taskTextInput.value !=="" && taskDateInput.value !==""){
-    // console.log("ok");
     addTask.insertAdjacentHTML("afterEnd",
       ` <div class="task">
           <div class="task-title">
@@ -90,26 +86,15 @@ function AddTask() {
 
 }
 
-
 //  УДАЛЕНИЕ ЗАДАЧ
 
 let deleteTask = document.querySelectorAll(".main-task-img");
-
 deleteTask.forEach((e) => {
   e.addEventListener('click', () =>{
     // console.log(e.parentNode.parentNode);
     e.parentNode.parentNode.style.display = 'none';
   })
 });
-
-//  ОТКРЫТИЕ/ЗАКРЫТИЕ МЕНЮ
-
-// function MenuToggle() {
-//   let navbarBtn = document.querySelector(".navbar-btn");
-//   let navbar = document.querySelector(".navbar");
-
-//   navbar.style.marginLeft = '0px';
-// }
 
 let navbarBtn = document.querySelector(".navbar-btn");
 let navbar = document.querySelector(".navbar");
@@ -118,5 +103,3 @@ navbarBtn.addEventListener('click', (e) => {
   e.preventDefault();
   navbar.classList.toggle('visible');
 });
-
-
