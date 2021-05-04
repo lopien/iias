@@ -1,0 +1,20 @@
+{
+  "name": "iias",
+  "version": "1.0.0",
+  "description": "Центр информационного обеспечения УдГУ",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopien/iias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopien/iias/issues"
+  },
+  "homepage": "https://github.com/lopien/iias#readme"
+}
